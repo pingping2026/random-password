@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background:#1F2937;
-    text-align: start;
+    text-align: center;
     padding:0px 20px;
 }
 
@@ -32,10 +32,13 @@ body {
     border-radius: 5px;
     padding: 15px 5px;
     background-color: #273549;
+    
 }
 
 .btn{
     display: flex;
     gap:10px;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
